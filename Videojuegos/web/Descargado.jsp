@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<%-- 
+    Document   : Descargado
+    Created on : 13/03/2015, 11:34:59 PM
+    Author     : JesúsIván
+--%>
 
-<head>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
     <title>Videojuegos Iglu</title>
     <meta charset="utf-8">
 
@@ -36,69 +37,28 @@ and open the template in the editor.
                         <ul class="menu">
                             <li><a href="ListaVideojuegos.jsp">Lista Videojuegos</a></li>
                             <li><a href="index.html">Contacto</a></li>
-                            <li><a href="Registro.jsp">Registrarse</a></li>
-                            <li><a href="Administrador.jsp">Iniciar Sesion</a></li>
+                            <li><a href="index.html">Registrarse</a></li>
+                            <li><a href="index.html">Iniciar Sesion</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
-        
-
 
         <div class="row-bot">
         	<div class="row-bot-bg">
             	<div class="main">
-        
-		  <article class="column-3">
-                	<div class="indent-left">
-                        <div class="maxheight indent-bot">
-                            <h3>Categorias</h3>
-                            <ul class="list-1">
-                            
-                                <li><a href="#">Accion</a></li>
-                                <li><a href="#">Aventura</a></li>
-                                <li><a href="#">Coches</a></li>
-                                <li><a href="#">Deportes</a></li>
-						<li><a href="#">De Mesa</a></li>
-                                <li><a href="#">Disparos</a></li>
-						<li><a href="#">Infantiles</a></li>
-						<li><a href="#">Multijugador</a></li>
 
-                                <li><a href="#">Puzzles</a></li>
-                            </ul>
-                        </div>
-                        <a class="button-2" href="#">Ver Mas</a>
-                    </div>
-                </article>
-        
-
-
-
-                    <div class="slider-wrapper">
-                        <div class="slider">
-                            <ul class="items">
-                                <li>
-                                    <img src="images/slider-img1.jpg" alt="" />
-                                </li>
-                                <li>
-                                    <img src="images/slider-img2.jpg" alt="" />
-                                </li>
-                                <li>
-                                    <img src="images/slider-img3.jpg" alt="" />
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <table style="width:100%" >
+                    <tr>
+                        <td><font color="white">Iniciando Descarga...</font></td>
+                    </tr>
+                </table>    
+   
                 </div>
             </div>
         </div>
-        
-        
     </header>
-    
-    
-    
 
     <section id="content"><div class="ic"></div>
         <div class="main">
@@ -114,13 +74,11 @@ and open the template in the editor.
                 </article>
             </div>
 
-
-
             <div class="wrapper">
                 <article class="column-2">
                 	<div class="maxheight indent-bot">
                         <h3 class="p1">Bienvenidos Estudiantes</h3>
-                        <h6 class="p2">VideojuegosIglu otorga creditos a los estudiantes con un buen desempeÃƒÂ±o academico que te serviran para comprar los mejores videojuegos</h6>
+                        <h6 class="p2">VideojuegosIglu otorga creditos a los estudiantes con un buen desempeÃ±o academico que te serviran para comprar los mejores videojuegos</h6>
                         <p class="p2">Solo tienes que dar clic en <a href="index.html" target="_blank">Registrarse</a>  llenar tus datos y sube tu historial academico </p>
                         Los creditos se otorgan de acuerdo a criterios de promedio y avance de creditos. Los creditos son intransferibles y solo pueden solicitarse una vez por semestre.
                     </div>
@@ -129,8 +87,6 @@ and open the template in the editor.
         </div>
     </section>
     
-	
-
     <footer>
         <div class="main">
         	<div class="aligncenter">
@@ -157,4 +113,3 @@ and open the template in the editor.
     </script>
 </body>
 </html>
-
