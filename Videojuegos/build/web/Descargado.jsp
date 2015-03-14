@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<%-- 
+    Document   : Descargado
+    Created on : 13/03/2015, 11:34:59 PM
+    Author     : JesúsIván
+--%>
 
-<head>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
     <title>Videojuegos Iglu</title>
     <meta charset="utf-8">
 
@@ -34,7 +35,7 @@ and open the template in the editor.
                 	<h1><a href="index.html">VideojuegosIglu<span>.com</span></a></h1>
                     <nav>
                         <ul class="menu">
-                            <li><a href="ListaVideojuegos.jsp">LISTA VIDEOJUEGOS</a></li>
+                            <li><a href="ListaVideojuegos.jsp">Lista Videojuegos</a></li>
                             <li><a href="index.html">Contacto</a></li>
                             <li><a href="index.html">Registrarse</a></li>
                             <li><a href="index.html">Iniciar Sesion</a></li>
@@ -50,46 +51,17 @@ and open the template in the editor.
         	<div class="row-bot-bg">
             	<div class="main">
         
-		  <article class="column-3">
-                	<div class="indent-left">
-                        <div class="maxheight indent-bot">
-                            <h3>Categorias</h3>
-                            <ul class="list-1">
-                            
-                                <li><a href="#">Accion</a></li>
-                                <li><a href="#">Aventura</a></li>
-                                <li><a href="#">Coches</a></li>
-                                <li><a href="#">Deportes</a></li>
-						<li><a href="#">De Mesa</a></li>
-                                <li><a href="#">Disparos</a></li>
-						<li><a href="#">Infantiles</a></li>
-						<li><a href="#">Multijugador</a></li>
-
-                                <li><a href="#">Puzzles</a></li>
-                            </ul>
-                        </div>
-                        <a class="button-2" href="#">Ver Mas</a>
-                    </div>
-                </article>
+		  
         
 
 
+<table style="width:100%" >
+  <tr>
+      <td><font color="white">Iniciando Descarga...</font></td>
+  </tr>
+</table>    
 
-                    <div class="slider-wrapper">
-                        <div class="slider">
-                            <ul class="items">
-                                <li>
-                                    <img src="images/slider-img1.jpg" alt="" />
-                                </li>
-                                <li>
-                                    <img src="images/slider-img2.jpg" alt="" />
-                                </li>
-                                <li>
-                                    <img src="images/slider-img3.jpg" alt="" />
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
